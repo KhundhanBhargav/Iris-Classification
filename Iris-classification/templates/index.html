@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="C://Users//Bhargav//Desktop//Demo//templates//style.css">
+        
+    <body>
+        <form action='/predict' method="POST">
+            <main>
+          <div class="input">
+            Sepal Length:<input type="text" name='sepal_length'><br>
+          </div>
+          <div class="input">
+            Sepal Width:<input type="text" name='sepal_width'><br>
+          </div>
+          <div class="input">
+            Petal Length:<input type="text" name='petal_length'><br>
+          <div>
+            <div class="inpt">
+            Petal Width:<input type="text" name='petal_width'><br>
+            <div>
+           <div class="input">
+            Class:{{result}}<br>
+            <div>
+             <div class="input">
+            <input type='submit' value='predict'>
+             <div>
+             </main>
+        </form>
+    </body>
+</html>
